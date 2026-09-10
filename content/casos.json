@@ -1,0 +1,450 @@
+[
+ {
+  "id": "insourcing-ventas-productividad-edtech",
+  "sector": "edtech",
+  "chip": "EdTech",
+  "chipEn": "Edtech",
+  "min": 6,
+  "eyebrow": "Plataforma EdTech de idiomas",
+  "eyebrowEn": "Language edtech platform",
+  "slideTitle": "Tras el insourcing, un tercio del equipo. La productividad se multiplicó.",
+  "slideTitleEn": "After insourcing, a third of the team. Productivity multiplied.",
+  "title": "Tras el insourcing, la operación quedó con un tercio del equipo. La productividad se multiplicó.",
+  "narrativa": "Internalizó sus campañas de ventas y heredó una estructura pesada. Rediseñamos procesos, supervisión y calidad, y la operación quedó liviana y más productiva.",
+  "narrativaEn": "It internalized its sales campaigns and inherited a heavy structure. We redesigned processes, supervision and quality, and the operation came out lean and more productive.",
+  "bajada": "Una plataforma EdTech de idiomas que acababa de internalizar sus campañas de ventas y heredó una estructura pesada, con productividad y conversión por debajo de lo que la operación podía dar.",
+  "excerpt": "Internalizar no mejora una operación por sí solo. Con rediseño de procesos, supervisión y calidad, la productividad por agente creció 282% con un tercio del equipo.",
+  "chart": {
+   "label": "Productividad por agente, índice base 100",
+   "labelEn": "Productivity per agent, index base 100",
+   "a": 100,
+   "b": 382,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después",
+   "bLabelEn": "After"
+  },
+  "metrics": [
+   {
+    "d": "+282%",
+    "n": "282",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "productividad por agente",
+    "lEn": "productivity per agent"
+   },
+   {
+    "d": "+19%",
+    "n": "19",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "conversión de lead a venta",
+    "lEn": "lead-to-sale conversion"
+   },
+   {
+    "d": "1/3",
+    "l": "del equipo recibido",
+    "lEn": "of the inherited team"
+   }
+  ],
+  "reto": [
+   "Internalizar una operación no la mejora sola. Sin rediseño, el insourcing solo traslada la ineficiencia adentro."
+  ],
+  "hicimos": [
+   "Reestructuramos y estabilizamos la operación regional, rediseñando procesos, supervisión, calidad y gestión del desempeño. El objetivo fue una estructura mucho más liviana que rindiera más, no menos."
+  ],
+  "resultados": "La productividad promedio por agente creció 282% sobre índice base 100, con una operación que quedó con un tercio del equipo frente a la estructura recibida. La conversión de lead a venta subió 19%.",
+  "quote": "Más gente no es más ventas. Un modelo bien diseñado rinde más con menos.",
+  "porque": "Un modelo bien diseñado libera el costo que la estructura pesada se estaba comiendo. El insourcing solo vale la pena si viene con rediseño."
+ },
+ {
+  "id": "universidad-recupera-control-motor-comercial",
+  "sector": "educacion",
+  "chip": "Educación superior",
+  "chipEn": "Higher education",
+  "min": 8,
+  "eyebrow": "Universidad privada · Una fase",
+  "eyebrowEn": "Private university · One phase",
+  "slideTitle": "Le devolvimos a una universidad el control de su motor comercial.",
+  "slideTitleEn": "We gave a university back control of its commercial engine.",
+  "title": "Le devolvimos a una universidad el control de su motor comercial.",
+  "narrativa": "Dependía de una agencia externa, con el funnel por producto y la trazabilidad en CRM por construir. En una sola fase reconstruimos el motor y se lo entregamos operando.",
+  "narrativaEn": "It depended on an external agency, with the per-product funnel and CRM traceability still to be built. In a single phase we rebuilt the engine and handed it over running.",
+  "bajada": "Una universidad privada que dependía de una agencia externa para captar estudiantes, con el funnel por producto y la trazabilidad en CRM todavía por construir. En una sola fase de acompañamiento, eso cambió.",
+  "excerpt": "Dependía de una agencia que facturaba cerca de $150M al mes. En una fase internalizamos la pauta, montamos el CRM y las matrículas subieron 16%.",
+  "chart": {
+   "label": "Matrículas totales, semestre contra semestre",
+   "labelEn": "Total enrollment, semester over semester",
+   "a": 375,
+   "b": 435,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después de una fase",
+   "bLabelEn": "After one phase"
+  },
+  "metrics": [
+   {
+    "d": "+16%",
+    "n": "16",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "matrículas en un semestre (375 → 435)",
+    "lEn": "enrollment in one semester (375 → 435)"
+   },
+   {
+    "d": "$409M",
+    "n": "409",
+    "dec": "0",
+    "pre": "$",
+    "suf": "M",
+    "l": "en ingresos incrementales (COP)",
+    "lEn": "in incremental revenue (COP)"
+   },
+   {
+    "d": "$103M",
+    "n": "103",
+    "dec": "0",
+    "pre": "$",
+    "suf": "M",
+    "l": "al mes de ahorro operativo",
+    "lEn": "per month in operating savings"
+   }
+  ],
+  "reto": [
+   "La captación dependía de una agencia externa que facturaba cerca de $150 millones al mes, con hasta el 42% yéndose en comisiones, fees y cargas.",
+   "Sin funnel definido, sin CRM que diera trazabilidad del lead y sin capacidad interna para controlar la pauta ni el costo por lead."
+  ],
+  "hicimos": [
+   "Diagnóstico primero. Reconstruimos el sistema: reorganizamos el equipo, implementamos CRM y omnicanalidad con reporting en tiempo real, montamos un sistema de pauta digital interno para operar las campañas sin la agencia, y capacitamos al equipo en inteligencia artificial aplicada al mercadeo.",
+   "No entregamos tácticas sueltas. Reconstruimos el motor y transferimos la capacidad de operarlo."
+  ],
+  "resultados": "Las matrículas totales crecieron 16% en un semestre, de 375 a 435, con cerca de $409 millones en ingresos incrementales. Al internalizar la pauta, el ahorro operativo llegó a $103 millones al mes, con hasta el 42% del gasto de agencia eliminado y un costo por lead entre $12.000 y $15.000 por debajo de la agencia. El motor quedó operando in-house.",
+  "nota": "Más de $1.300 millones proyectados en valor de vida del estudiante.",
+  "notaEn": "More than COP 1,300M in projected student lifetime value.",
+  "quote": "Una agencia vive de mantenerte dependiente. Aquí hicimos lo contrario: entregamos las llaves.",
+  "porque": "La universidad hoy crece más, gasta menos y opera sola. Eso es lo que significa transferir la capacidad."
+ },
+ {
+  "id": "modelo-de-ventas-contact-center-banca",
+  "sector": "banca",
+  "chip": "Banca",
+  "chipEn": "Banking",
+  "min": 7,
+  "eyebrow": "Banca y contact center",
+  "eyebrowEn": "Banking and contact center",
+  "slideTitle": "Once campañas no necesitaban más presión. Necesitaban un solo modelo con calidad.",
+  "slideTitleEn": "Eleven campaigns did not need more pressure. They needed one model with quality.",
+  "title": "Once campañas no necesitaban más presión. Necesitaban un solo modelo de venta con calidad.",
+  "narrativa": "Once campañas y cerca de 450 agentes, cada una con su propia lógica. Las alineamos bajo un solo modelo de venta con calidad y cumplimiento regulatorio.",
+  "narrativaEn": "Eleven campaigns and close to 450 agents, each running its own logic. We aligned them under one sales model with quality and regulatory compliance.",
+  "bajada": "Una entidad bancaria con once campañas de ventas y retención y cerca de 450 agentes, operando cada una con su propia lógica y sin un estándar común de calidad.",
+  "excerpt": "Once campañas tirando en direcciones distintas no es un problema de esfuerzo, es de modelo. Un solo estándar subió 82% las ventas de tarjetas activas.",
+  "chart": {
+   "label": "Ventas de tarjetas activas, índice base 100",
+   "labelEn": "Active card sales, index base 100",
+   "a": 100,
+   "b": 182,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después",
+   "bLabelEn": "After"
+  },
+  "metrics": [
+   {
+    "d": "+82%",
+    "n": "82",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "ventas de tarjetas activas",
+    "lEn": "active card sales"
+   },
+   {
+    "d": "+35%",
+    "n": "35",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "productividad por agente",
+    "lEn": "productivity per agent"
+   },
+   {
+    "d": "+27.000",
+    "n": "27000",
+    "dec": "0",
+    "pre": "+",
+    "l": "operaciones · ~$81.000M COP",
+    "lEn": "operations · ~COP 81,000M"
+   }
+  ],
+  "reto": [
+   "Once campañas tirando en direcciones distintas no es un problema de esfuerzo, es un problema de modelo. Más presión sobre un sistema desalineado no produce más ventas, produce más rotación."
+  ],
+  "hicimos": [
+   "Reestructuramos la operación de ventas y retención de las once campañas, alineando supervisión, auditoría, desarrollo de personas, motivación y cumplimiento regulatorio bajo un solo modelo operativo."
+  ],
+  "resultados": "Las ventas de tarjetas de crédito activas crecieron 82% sobre índice base 100 y la productividad promedio por agente 35%, al tiempo que se aceleró la colocación de productos financieros, con más de 27.000 operaciones y cerca de $81.000 millones COP en valor aproximado de compras de cartera.",
+  "quote": "En operaciones grandes, la palanca no es exigir más. Es un modelo único que todas las campañas puedan seguir.",
+  "porque": "Cuando el estándar se unifica, con calidad y cumplimiento, la productividad sube sola."
+ },
+ {
+  "id": "insurtech-break-even-a-margen-positivo",
+  "sector": "insurtech",
+  "chip": "Insurtech",
+  "chipEn": "Insurtech",
+  "min": 6,
+  "eyebrow": "Startup insurtech",
+  "eyebrowEn": "Insurtech startup",
+  "slideTitle": "De buscar el punto de equilibrio a crecer con margen.",
+  "slideTitleEn": "From chasing break-even to growing with margin.",
+  "title": "Pasó de buscar el punto de equilibrio a crecer con margen y una operación lista para escalar.",
+  "narrativa": "El comparador funcionaba, pero la operación no rendía para escalar. Rediseñamos estrategia comercial, journey y procesos, y llevamos el contact center a in-house.",
+  "narrativaEn": "The comparison engine worked, but the operation did not perform well enough to scale. We redesigned commercial strategy, journey and processes, and moved the contact center in-house.",
+  "bajada": "Una insurtech con un comparador de seguros funcionando, pero atrapada en la búsqueda del break-even y con una operación que no rendía lo suficiente para escalar.",
+  "excerpt": "Crecer sin margen no es escalar, es acumular riesgo. Primero productividad y salud financiera: +65% en ventas y una operación en margen positivo.",
+  "chart": {
+   "label": "Ventas, índice base 100",
+   "labelEn": "Sales, index base 100",
+   "a": 100,
+   "b": 165,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después",
+   "bLabelEn": "After"
+  },
+  "metrics": [
+   {
+    "d": "+65%",
+    "n": "65",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "en ventas",
+    "lEn": "in sales"
+   },
+   {
+    "d": "+43%",
+    "n": "43",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "productividad por agente",
+    "lEn": "productivity per agent"
+   },
+   {
+    "d": "Margen",
+    "l": "de break-even a margen positivo",
+    "lEn": "from break-even to positive margin"
+   }
+  ],
+  "reto": [
+   "Crecer sin margen no es escalar, es acumular riesgo. La operación necesitaba productividad y salud financiera antes de acelerar."
+  ],
+  "hicimos": [
+   "Rediseñamos la estrategia comercial, la estructura operativa, el journey del cliente y los procesos de ventas, calidad y entrenamiento.",
+   "Lideramos la tercerización del contact center y su posterior migración a un modelo in-house para recuperar costo-eficiencia, apoyados en tecnología y monitoreo del marketing digital."
+  ],
+  "resultados": "Las ventas crecieron 65% sobre índice base 100 y la productividad promedio por agente 43%. La operación alcanzó el break-even, pasó a margen positivo y consolidó un modelo más productivo, listo para escalar.",
+  "quote": "Escalar una operación que pierde plata solo multiplica la pérdida.",
+  "porque": "El orden correcto es primero margen y productividad, después velocidad. Ahí es cuando crecer deja de asustar."
+ },
+ {
+  "id": "crecimiento-sostenido-matriculas-universidad",
+  "sector": "educacion",
+  "chip": "Educación superior",
+  "chipEn": "Higher education",
+  "min": 7,
+  "eyebrow": "Universidad privada · Cuatro años",
+  "eyebrowEn": "Private university · Four years",
+  "slideTitle": "El crecimiento dejó de ser una meta anual. Se volvió un sistema.",
+  "slideTitleEn": "Growth stopped being an annual target. It became a system.",
+  "title": "El crecimiento dejó de ser una meta anual. Se convirtió en un sistema sostenido.",
+  "narrativa": "El producto académico era bueno, pero el crecimiento dependía de la convocatoria de turno. En cuatro años integramos atracción, permanencia y nuevas líneas en un solo motor.",
+  "narrativaEn": "The academic product was good, but growth depended on whichever intake campaign was running. In four years we integrated attraction, retention and new lines into a single engine.",
+  "bajada": "Una universidad privada con buen producto académico, pero un crecimiento que dependía de campañas sueltas y de la convocatoria de turno. Cada año se arrancaba casi de cero.",
+  "excerpt": "La demanda existía; faltaba el sistema que la convirtiera cada semestre. En cuatro años la población activa creció 48% y los ingresos netos 53%.",
+  "chart": {
+   "label": "Población estudiantil activa por semestre",
+   "labelEn": "Active student population per semester",
+   "a": 8100,
+   "b": 12000,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después de cuatro años",
+   "bLabelEn": "After four years",
+   "bDisplay": "+12.000"
+  },
+  "metrics": [
+   {
+    "d": "+48%",
+    "n": "48",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "población activa por semestre",
+    "lEn": "active population per semester"
+   },
+   {
+    "d": "+44%",
+    "n": "44",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "matrículas nuevas (4 años)",
+    "lEn": "new enrollment (4 years)"
+   },
+   {
+    "d": "+53%",
+    "n": "53",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "ingresos netos (4 años)",
+    "lEn": "net revenue (4 years)"
+   }
+  ],
+  "reto": [
+   "La demanda existía. Lo que faltaba era el sistema que la convirtiera de forma consistente, semestre tras semestre, en vez de depender del esfuerzo puntual de cada periodo."
+  ],
+  "hicimos": [
+   "Durante cuatro años integramos atracción, permanencia, portafolio, experiencia estudiantil, contratación B2B y B2G, y nuevas líneas de negocio bajo una sola visión de crecimiento.",
+   "No fueron campañas aisladas. Fue un motor comercial diseñado para producir de forma repetible, con objetivos institucionales claros y seguimiento continuo."
+  ],
+  "resultados": "La población estudiantil activa por semestre pasó de 8.100 a más de 12.000, un crecimiento del 48%. En cuatro años, las matrículas nuevas acumuladas crecieron 44% y los ingresos netos acumulados 53%, con cuatro años consecutivos cumpliendo los objetivos de ingresos netos. La diversificación sumó más de $15.000 millones COP en nuevas líneas de negocio, con +98% en contratación pública y privada y +90% en educación continua.",
+  "nota": "Cuatro años consecutivos cumpliendo los objetivos de ingresos netos.",
+  "notaEn": "Four consecutive years meeting net revenue targets.",
+  "quote": "Cuando el crecimiento deja de ser un evento anual y pasa a ser un sistema, deja de ser suerte.",
+  "porque": "Para una universidad, la diferencia real no está en tener una buena convocatoria. Está en tener un motor que produce cada semestre, sin depender de un pico."
+ },
+ {
+  "id": "estrategia-comercial-b2b-recurrencia-edtech",
+  "sector": "edtech",
+  "chip": "EdTech",
+  "chipEn": "Edtech",
+  "min": 7,
+  "eyebrow": "Plataforma EdTech · B2B LATAM",
+  "eyebrowEn": "Edtech platform · B2B LATAM",
+  "slideTitle": "El pipeline no solo creció. Se volvió recurrente y difícil de perder.",
+  "slideTitleEn": "The pipeline did not just grow. It became recurring and hard to lose.",
+  "title": "El pipeline no solo creció. Se volvió más recurrente y más difícil de perder.",
+  "narrativa": "Crecía sumando logos más rápido de lo que perdía los existentes. Conectamos expansión de cuentas, renovaciones, upselling y customer success en un solo modelo.",
+  "narrativaEn": "It grew by adding logos faster than it lost the existing ones. We connected account expansion, renewals, upselling and customer success into a single model.",
+  "bajada": "Una plataforma EdTech con una operación B2B en Latinoamérica con tracción, pero con un crecimiento que dependía de cerrar logos nuevos más rápido de lo que perdía los existentes.",
+  "excerpt": "En B2B la métrica que decide no es cuántas cuentas entran, es cuánto se queda y cuánto se expande. El MRR creció 58% y el NDR subió 12 puntos.",
+  "chart": {
+   "label": "MRR B2B, índice base 100",
+   "labelEn": "B2B MRR, index base 100",
+   "a": 100,
+   "b": 158,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después",
+   "bLabelEn": "After"
+  },
+  "metrics": [
+   {
+    "d": "+88%",
+    "n": "88",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "revenue Enterprise",
+    "lEn": "Enterprise revenue"
+   },
+   {
+    "d": "+57%",
+    "n": "57",
+    "dec": "0",
+    "pre": "+",
+    "suf": "%",
+    "l": "revenue SMB",
+    "lEn": "SMB revenue"
+   },
+   {
+    "d": "+12 pp",
+    "n": "12",
+    "dec": "0",
+    "pre": "+",
+    "suf": " pp",
+    "l": "de NDR",
+    "lEn": "in NDR"
+   }
+  ],
+  "reto": [
+   "Crecer sumando cuentas nuevas es frágil si la base no se retiene ni se expande. El pipeline necesitaba volverse recurrente, no solo grande."
+  ],
+  "hicimos": [
+   "Diseñamos la estrategia comercial B2B para Latinoamérica conectando expansión de cuentas, renovaciones, upselling, customer success, forecasting, account planning y sales operations bajo un mismo modelo. El foco no fue solo adquirir, fue retener y expandir."
+  ],
+  "resultados": "El MRR B2B creció 58% sobre índice base 100. El revenue Enterprise creció 88% y el SMB 57%, con una mejora de 12 puntos porcentuales en NDR y de 10 pp en la retención de logos. El crecimiento se dio en calidad, no solo en volumen.",
+  "quote": "Un NDR que sube convierte cada cliente en un activo que crece solo.",
+  "porque": "En B2B, la métrica que decide no es cuántas cuentas entran, es cuánto se queda y cuánto se expande. Ese es el pipeline que no se pierde."
+ },
+ {
+  "id": "optimizacion-bpo-comercial-medios",
+  "sector": "medios",
+  "chip": "Medios",
+  "chipEn": "Media",
+  "min": 6,
+  "eyebrow": "Medios y operación BPO",
+  "eyebrowEn": "Media and BPO operation",
+  "slideTitle": "Con 25% menos equipo, el cumplimiento subió de 79% a 96%.",
+  "slideTitleEn": "With 25% less team, attainment went from 79% to 96%.",
+  "title": "Con 25% menos equipo, el cumplimiento subió de 79% a 96%.",
+  "narrativa": "Nueve campañas, más de 150 agentes, portafolio print y digital. Rediseñamos el modelo operativo para sostener el contrato con una estructura más eficiente.",
+  "narrativaEn": "Nine campaigns, more than 150 agents, a print and digital portfolio. We redesigned the operating model to sustain the contract with a leaner structure.",
+  "bajada": "Un grupo de medios con una operación comercial que integraba nueve campañas, más de 150 agentes y un portafolio de productos print y digitales, con cumplimiento por debajo del presupuesto y una estructura más pesada de lo que el contrato aguantaba.",
+  "excerpt": "Un contrato de BPO comercial no se sostiene con volumen de gente, se sostiene con eficiencia. El cumplimiento pasó de 79% a 96% con 25% menos equipo.",
+  "chart": {
+   "label": "Cumplimiento del presupuesto de ventas",
+   "labelEn": "Sales budget attainment",
+   "a": 79,
+   "b": 96,
+   "aLabel": "Antes",
+   "aLabelEn": "Before",
+   "bLabel": "Después",
+   "bLabelEn": "After",
+   "aDisplay": "79%",
+   "bDisplay": "96%"
+  },
+  "metrics": [
+   {
+    "d": "-25%",
+    "n": "25",
+    "dec": "0",
+    "pre": "-",
+    "suf": "%",
+    "l": "tamaño de equipo",
+    "lEn": "team size"
+   },
+   {
+    "d": "+$4.000M",
+    "n": "4000",
+    "dec": "0",
+    "pre": "+$",
+    "suf": "M",
+    "l": "en ventas anuales (COP)",
+    "lEn": "in annual sales (COP)"
+   },
+   {
+    "d": "9",
+    "n": "9",
+    "dec": "0",
+    "l": "campañas bajo un solo modelo",
+    "lEn": "campaigns under one model"
+   }
+  ],
+  "reto": [
+   "Un contrato de BPO comercial no se sostiene con volumen de gente, se sostiene con eficiencia. El cumplimiento estaba en 79% y la estructura pesaba sobre la rentabilidad."
+  ],
+  "hicimos": [
+   "Rediseñamos el modelo operativo de las nueve campañas para recuperar productividad y fortalecer la sostenibilidad del contrato, con una estructura más eficiente y un solo estándar de operación."
+  ],
+  "resultados": "El cumplimiento del presupuesto de ventas subió de 79% a 96%, 17 puntos porcentuales, con 25% menos equipo frente a la estructura recibida. Las ventas anuales crecieron más de $4.000 millones COP y la rentabilidad interna de las nueve campañas mejoró 34%.",
+  "quote": "La eficiencia no es recortar, es rediseñar para que rinda.",
+  "porque": "Bajar el equipo y subir el cumplimiento al mismo tiempo solo pasa cuando el problema nunca fue de tamaño, sino de modelo."
+ }
+]
