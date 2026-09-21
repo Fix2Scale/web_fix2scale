@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 
 export function CtaFinal({ locale, alt }: { locale: Locale; alt?: boolean }) {
   return (
-    <section className={`section ${alt ? "section--alt" : ""}`} style={alt ? { borderBottom: 0 } : undefined}>
+    <section className={`section ${alt ? "section--alt" : "cta--photo"}`} style={alt ? { borderBottom: 0 } : undefined}>
       <Reveal className="wrap grid-2" style={{ alignItems: "center" }}>
         <h2 className="display display--h2-cta min0">{t(locale, "cta.title")}</h2>
         <div className="stack min0" style={{ gap: 26 }}>

@@ -30,7 +30,7 @@ export default async function InsightsPage({ params }: Props) {
   const cards = insightsIndex.map((e) => ({ id: e.id, type: e.type, node: <EntryCard entry={e} locale={locale} /> }));
   return (
     <>
-      <section className="section--head">
+      <section className="section--head head--banner" style={{ "--head-img": 'url("/images/banners/insights.jpg")' } as React.CSSProperties}>
         <div className="wrap stack" style={{ gap: 24 }}>
           <div className="eyebrow-hero hero-in">{pick(locale, "Insights y Recursos", "Insights and Resources")}</div>
           <h1 className="display display--h1 hero-in" style={{ animationDelay: "95ms" }}>

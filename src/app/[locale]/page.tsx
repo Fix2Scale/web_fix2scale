@@ -2,6 +2,7 @@ import Link from "next/link";
 import { casos } from "@/lib/content";
 import { href, isLocale, pick, t, type Locale } from "@/lib/i18n";
 import { pageMeta } from "@/lib/seo";
+import { ImgSlot } from "@/components/ImgSlot";
 import { Reveal } from "@/components/Reveal";
 import { CtaFinal } from "@/components/CtaFinal";
 import { Diagnostic } from "@/components/home/Diagnostic";
@@ -69,12 +70,12 @@ const BENTO: { t: [string, string]; d: [string, string]; mod?: string }[] = [
   { t: ["Analítica y Reporting", "Analytics and Reporting"], d: ["Reporting que la Junta lee y el equipo acciona la misma semana.", "Reporting the board reads and the team acts on the same week."] },
 ];
 
-const PIECES: [string, string][] = [
-  ["Estrategia", "Strategy"],
-  ["Propuesta de valor", "Value proposition"],
-  ["Marketing", "Marketing"],
-  ["Modelo comercial", "Commercial model"],
-  ["Transferencia de conocimiento", "Knowledge transfer"],
+const PIECES: [string, string, string][] = [
+  ["Estrategia", "Strategy", "estrategia"],
+  ["Propuesta de valor", "Value proposition", "propuesta-de-valor"],
+  ["Marketing", "Marketing", "marketing"],
+  ["Modelo comercial", "Commercial model", "modelo-comercial"],
+  ["Transferencia de conocimiento", "Knowledge transfer", "transferencia-conocimiento"],
 ];
 
 const ArrowR = () => (
@@ -98,7 +99,7 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       {/* HERO */}
-      <section className="hero">
+      <section className="hero hero--photo">
         <div className="hero__wrap">
           <div className="eyebrow-hero eyebrow-hero--dash hero-in">
             <span>{pick(locale, "Consultoría estratégica de Growth, Marketing y Ventas", "Strategic Growth, Marketing and Sales consultancy")}</span>
@@ -116,6 +117,10 @@ export default async function HomePage({ params }: Props) {
             <Link href={href(locale, "/servicios")} className="link-under">
               {pick(locale, "Ver el motor comercial", "See the commercial engine")}
             </Link>
+          </div>
+          <div className="hero__photo" aria-hidden="true">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/home/hero-foto.jpg" alt="" className="img-cover" loading="eager" fetchPriority="high" />
           </div>
         </div>
       </section>
@@ -143,6 +148,9 @@ export default async function HomePage({ params }: Props) {
             </Reveal>
             <Reveal as="p" delay={60} className="lead" style={{ fontSize: "clamp(15px,1.15vw,18px)", lineHeight: 1.55, maxWidth: "46ch" }}>
               {pick(locale, "Hay producto, capacidad y ambición. Falta el sistema comercial que convierte todo eso en ingresos de forma consistente.", "There is product, capability and ambition. What is missing is the commercial system that turns all of it into consistent revenue.")}
+            </Reveal>
+            <Reveal delay={100} className="photo-box">
+              <ImgSlot src="/images/home/cuando-nos-necesitas.jpg" alt={pick(locale, "Dos personas revisando el funnel comercial frente a un portátil", "Two people reviewing the sales funnel on a laptop")} spec="" />
             </Reveal>
           </div>
           <Reveal delay={80} className="min0">
@@ -172,7 +180,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* NUESTRO DIFERENCIAL */}
-      <section className="section">
+      <section className="section section--textura">
         <div className="wrap stack" style={{ gap: "clamp(30px,3.2vw,52px)" }}>
           <Reveal className="eyebrow">
             <span>{pick(locale, "Nuestro diferencial", "What sets us apart")}</span>
@@ -194,8 +202,10 @@ export default async function HomePage({ params }: Props) {
                   </div>
                 )}
                 <div className={`piece ${i === PIECES.length - 1 ? "piece--dark" : ""}`}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img className="piece__ico" src={`/images/icons/diferencial-${p[2]}.png`} alt="" width={200} height={200} loading="lazy" />
                   <span className="num piece__n">{i + 1}</span>
-                  <span className="piece__t">{pick(locale, ...p)}</span>
+                  <span className="piece__t">{pick(locale, p[0], p[1])}</span>
                 </div>
               </span>
             ))}
@@ -280,6 +290,9 @@ export default async function HomePage({ params }: Props) {
             </Reveal>
             <Reveal as="h2" className="display display--h2-faq">
               {pick(locale, "Antes de agendar la llamada.", "Before you book the call.")}
+            </Reveal>
+            <Reveal delay={60} className="photo-box">
+              <ImgSlot src="/images/home/preguntas-frecuentes.jpg" alt={pick(locale, "Reunión de trabajo con el equipo comercial", "Working session with the sales team")} spec="" />
             </Reveal>
           </div>
           <Reveal delay={80} className="min0">

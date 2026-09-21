@@ -3,11 +3,12 @@
 import { useId, useState } from "react";
 import { pick, type Locale } from "@/lib/i18n";
 
-type Step = { n: string; title: [string, string]; what: [string, string]; deliverables: [string, string][]; duration: [string, string]; result: [string, string] };
+type Step = { n: string; ico: string; title: [string, string]; what: [string, string]; deliverables: [string, string][]; duration: [string, string]; result: [string, string] };
 
 const STEPS: Step[] = [
   {
     n: "01",
+    ico: "identificamos",
     title: ["Identificamos", "We identify"],
     what: ["Auditamos el sistema comercial completo, de la generación de demanda al cierre, y priorizamos la restricción real.", "We audit the full commercial system, from demand generation to close, and prioritise the real constraint."],
     deliverables: [
@@ -20,6 +21,7 @@ const STEPS: Step[] = [
   },
   {
     n: "02",
+    ico: "construimos",
     title: ["Construimos", "We build"],
     what: ["Construimos lo que falta y reconstruimos lo que está mal ensamblado, operando junto a tu equipo, dentro de tu operación.", "We build what is missing and rebuild what is badly assembled, working alongside your team, inside your operation."],
     deliverables: [
@@ -32,6 +34,7 @@ const STEPS: Step[] = [
   },
   {
     n: "03",
+    ico: "fortalecemos",
     title: ["Fortalecemos", "We strengthen"],
     what: ["Entrenamos al equipo, instalamos los rituales de gestión y transferimos la capacidad completa.", "We train the team, install the management rituals and transfer the full capability."],
     deliverables: [
@@ -68,6 +71,10 @@ export function Stepper({ locale }: { locale: Locale }) {
             className="step"
             onClick={() => setI(j)}
           >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="step__ico step__ico--azul" src={`/images/icons/metodo-${st.ico}-azul.png`} alt="" width={200} height={200} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="step__ico step__ico--blanco" src={`/images/icons/metodo-${st.ico}-blanco.png`} alt="" width={200} height={200} />
             <span className="step__n">{st.n}</span>
             <span className="step__t">{pick(locale, ...st.title)}</span>
           </button>

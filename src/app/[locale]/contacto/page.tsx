@@ -33,7 +33,7 @@ export default async function ContactoPage({ params }: Props) {
   if (!isLocale(locale)) notFound();
   return (
     <>
-      <section className="section--head">
+      <section className="section--head head--banner" style={{ "--head-img": 'url("/images/banners/contacto.jpg")' } as React.CSSProperties}>
         <div className="wrap stack" style={{ gap: 24 }}>
           <div className="eyebrow-hero hero-in">{pick(locale, "Contacto", "Contact")}</div>
           <h1 className="display display--h1 hero-in" style={{ animationDelay: "95ms" }}>

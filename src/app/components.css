@@ -315,8 +315,7 @@ html.menu-open { overflow: hidden; }
 .profiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap: clamp(32px, 4vw, 80px); }
 .profile { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
 .profile__photo { position: relative; overflow: hidden; background: var(--f2s-black); aspect-ratio: 4 / 5; width: 100%; max-width: 440px; border: 2px solid var(--f2s-white); }
-.profile__photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 12%; filter: grayscale(1) contrast(1.05) brightness(0.82); transition: filter var(--dur-slow) var(--ease-in); }
-.profile:hover .profile__photo img { filter: grayscale(1) contrast(1.05) brightness(1); }
+.profile__photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .profile__name { font-family: var(--font-display); font-weight: 900; font-variation-settings: "wdth" 75; font-stretch: 75%; text-transform: uppercase; letter-spacing: -0.015em; font-size: clamp(24px, 2.6vw, 40px); line-height: 1; }
 .profile__role { font-family: var(--font-display); font-weight: 800; font-variation-settings: "wdth" 75; font-stretch: 75%; text-transform: uppercase; letter-spacing: 0.12em; font-size: clamp(13px, 1.05vw, 16px); color: var(--f2s-blue-soft); }
 .profile__bio { font-size: clamp(15px, 1.15vw, 18px); line-height: 1.6; color: var(--f2s-on-dark-2); text-wrap: pretty; }
@@ -354,3 +353,45 @@ html.menu-open { overflow: hidden; }
 .form__done { background: var(--f2s-black); color: var(--f2s-white); padding: clamp(18px, 2vw, 28px); display: flex; flex-direction: column; gap: 8px; }
 .form__done-t { font-family: var(--font-display); font-weight: 900; font-variation-settings: "wdth" 75; font-stretch: 75%; text-transform: uppercase; letter-spacing: -0.01em; font-size: clamp(18px, 1.8vw, 26px); }
 .form__error { font-size: 13px; color: var(--f2s-blue); }
+
+/* ---------- imágenes de marca (entrega María Paula, sept. 2026) ---------- */
+/* Hero del Inicio: barra azul diagonal a la izquierda, foto a la derecha. */
+.hero--photo { background: var(--f2s-blue) url("/images/home/hero-barra-azul.jpg") right center / cover no-repeat; color: var(--f2s-white); }
+.hero--photo .eyebrow-hero, .hero--photo .display, .hero--photo .hero__lead, .hero--photo .link-under { color: var(--f2s-white); }
+.hero--photo .btn { background: var(--f2s-white); color: var(--f2s-blue); }
+.hero--photo .btn:hover { background: var(--f2s-ink); color: var(--f2s-white); }
+.hero--photo .hero__wrap > * { max-width: min(46%, 720px); }
+.hero__photo { display: none; }
+@media (max-width: 899px) {
+  .hero--photo { background-image: none; padding-bottom: 0; }
+  .hero--photo .hero__wrap > * { max-width: none; }
+  .hero__photo { display: block; position: relative; aspect-ratio: 16 / 9; margin: clamp(32px, 6vw, 48px) calc(-1 * var(--pad-x)) 0; overflow: hidden; }
+}
+
+/* Cabecera de páginas internas con banner (2400×740). */
+.head--banner { background: var(--f2s-blue) var(--head-img) right center / cover no-repeat; color: var(--f2s-white); border-bottom: 0; min-height: clamp(260px, 28vw, 420px); display: flex; align-items: center; }
+.head--banner .wrap { width: 100%; }
+.head--banner .eyebrow-hero, .head--banner .display, .head--banner .lead { color: var(--f2s-white); }
+.head--banner .wrap > * { max-width: min(58%, 900px); }
+@media (max-width: 899px) {
+  .head--banner { background-image: none; min-height: 0; }
+  .head--banner .wrap > * { max-width: none; }
+}
+
+/* Tarjetas giratorias: la cara frontal lleva foto duotono azul. */
+.flip__front--photo { background: var(--f2s-blue) var(--flip-img) center / cover no-repeat; border-color: var(--f2s-blue); }
+.flip__btn:hover .flip__front--photo { background-color: var(--f2s-blue); border-color: var(--f2s-ink); }
+.flip__front--photo .flip__title { color: var(--f2s-white); }
+.flip__front--photo .flip__tag { background: var(--f2s-white); color: var(--f2s-ink); }
+.flip__front--photo .flip__foot { color: var(--f2s-white); border-top-color: rgba(255, 255, 255, 0.4); }
+
+/* Nuestro diferencial: textura de líneas de fondo e iconos por pieza. */
+.section--textura { background: var(--f2s-white) url("/images/home/textura-lineas.png") center / cover no-repeat; }
+.piece__ico { width: clamp(32px, 2.6vw, 40px); height: auto; display: block; }
+
+/* Cómo trabajamos: icono azul en reposo, blanco al seleccionar. */
+.step__ico { width: 26px; height: 26px; flex: 0 0 auto; }
+.step[aria-selected="true"] .step__ico--azul, .step:not([aria-selected="true"]) .step__ico--blanco { display: none; }
+
+/* CTA final: foto banner en gris claro. */
+.cta--photo { background: var(--f2s-white) url("/images/home/cta-agenda.jpg") center / cover no-repeat; }

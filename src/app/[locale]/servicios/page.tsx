@@ -28,7 +28,7 @@ export default async function ServiciosPage({ params }: Props) {
   if (!isLocale(locale)) notFound();
   return (
     <>
-      <section className="section--head">
+      <section className="section--head head--banner" style={{ "--head-img": 'url("/images/banners/servicios.jpg")' } as React.CSSProperties}>
         <div className="wrap stack" style={{ gap: 24 }}>
           <div className="eyebrow-hero hero-in">{pick(locale, "Servicios", "Services")}</div>
           <h1 className="display display--h1 hero-in" style={{ animationDelay: "95ms" }}>
@@ -67,11 +67,10 @@ export default async function ServiciosPage({ params }: Props) {
           </Reveal>
           <Reveal delay={100} className="photo-box">
             <ImgSlot
-              src="/images/photos/operacion-vertical.jpg"
+              src="/images/photos/metodo-aplicado.jpg"
               alt={pick(locale, "Los dos socios trabajando con el equipo del cliente", "The two partners working with the client team")}
               spec="Foto B/N, horizontal 3:2 (mín. 1800×1200): los dos socios trabajando con el equipo del cliente"
-              style={{ objectPosition: "center 30%" }}
-            />
+                          />
           </Reveal>
         </div>
       </section>

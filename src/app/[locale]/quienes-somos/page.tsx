@@ -31,7 +31,7 @@ const PARTNERS: { name: string; first: string; photo: string; linkedin: string; 
   {
     name: "Néstor Fonseca G.",
     first: "Néstor",
-    photo: "/images/photos/headshot-nestor.jpg",
+    photo: "/images/photos/nestor.jpg",
     linkedin: "https://www.linkedin.com/in/nestor-raul-fonseca-guerrero",
     bio: [
       "15+ años liderando crecimiento y revenue en edtech, educación superior, banca, seguros y telecom. Ha construido y liderado equipos comerciales que crecen por sistema.",
@@ -45,7 +45,7 @@ const PARTNERS: { name: string; first: string; photo: string; linkedin: string; 
   {
     name: "Felipe Jiménez G.",
     first: "Felipe",
-    photo: "/images/photos/headshot-felipe.jpg",
+    photo: "/images/photos/felipe.jpg",
     linkedin: "https://www.linkedin.com/in/felipejimenezgomez",
     bio: [
       "10+ años construyendo sistemas go-to-market y CRM para servicios B2B y compañías tech-enabled en tres continentes. Especialista en llevar una función comercial de cero a operación medible.",
@@ -63,7 +63,7 @@ export default async function QuienesSomosPage({ params }: Props) {
   if (!isLocale(locale)) notFound();
   return (
     <>
-      <section className="section--head">
+      <section className="section--head head--banner" style={{ "--head-img": 'url("/images/banners/quienes-somos.jpg")' } as React.CSSProperties}>
         <div className="wrap stack" style={{ gap: 24 }}>
           <div className="eyebrow-hero hero-in">{pick(locale, "Quiénes Somos", "About Us")}</div>
           <h1 className="display display--h1 hero-in" style={{ animationDelay: "95ms" }}>

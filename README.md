@@ -95,7 +95,14 @@ content/
 ├── articulos/               ← artículos como bloques tipados
 └── legal/                   ← Markdown editable
 public/
-├── fonts/ · logo/ · images/
+├── fonts/ · logo/
+└── images/
+    ├── home/      ← hero (barra azul + foto), secciones del Inicio, textura, CTA
+    ├── banners/   ← cabeceras 2400×740 de Servicios, Quiénes Somos, Insights y Contacto
+    ├── casos/     ← <slug>-thumb.jpg y <slug>-hero.jpg
+    ├── icons/     ← diferencial-*.png y metodo-*-{azul,blanco}.png
+    ├── insights/  ← miniaturas y banners de artículos
+    └── photos/    ← socios (felipe, nestor), método aplicado, contacto
 ```
 
 ---
@@ -258,7 +265,7 @@ en servidor.
 
 ## Pendientes
 
-- [ ] 14 imágenes de caso (2 por caso) y 3 fotos de sección. Las de "El método" y Contacto son provisionales.
+- [x] Imágenes de marca integradas (entrega de diseño, sept. 2026): hero y banners de página, casos, socios, iconos. Solo queda provisional la foto de Contacto (`photos/equipo-bn.jpg`).
 - [ ] Traducción al inglés del cuerpo largo (casos, artículos, legales).
 - [ ] Destino final del formulario (CRM o correo) vía `LEAD_WEBHOOK_URL`.
 - [ ] Etiquetas de analítica y publicidad condicionadas a `f2s_consent`.

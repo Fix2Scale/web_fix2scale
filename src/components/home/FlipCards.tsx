@@ -3,11 +3,12 @@
 import { useState } from "react";
 import { pick, type Locale } from "@/lib/i18n";
 
-type Card = { tag: [string, string]; front: [string, string]; back: [string, string]; what: [string, string] };
+type Card = { tag: [string, string]; img: string; front: [string, string]; back: [string, string]; what: [string, string] };
 
 const CARDS: Card[] = [
   {
     tag: ["Demanda", "Demand"],
+    img: "leads",
     front: ["Necesitas más leads.", "You need more leads."],
     back: ["Tienes un problema de conversión", "You have a conversion problem"],
     what: [
@@ -17,6 +18,7 @@ const CARDS: Card[] = [
   },
   {
     tag: ["Vendedores", "Salespeople"],
+    img: "vendedores",
     front: ["Necesitas más vendedores.", "You need more salespeople."],
     back: ["Necesitas estructura", "You need structure"],
     what: [
@@ -26,6 +28,7 @@ const CARDS: Card[] = [
   },
   {
     tag: ["Tecnología", "Technology"],
+    img: "tecnologia",
     front: ["Comprar tecnología lo resuelve.", "Buying technology solves it."],
     back: ["El problema es de proceso", "The problem is process"],
     what: [
@@ -35,6 +38,7 @@ const CARDS: Card[] = [
   },
   {
     tag: ["Marketing", "Marketing"],
+    img: "marketing",
     front: ["Es un problema de marketing.", "It is a marketing problem."],
     back: ["Es la alineación entre producto, marketing y ventas", "It is the alignment between product, marketing and sales"],
     what: [
@@ -63,7 +67,7 @@ export function FlipCards({ locale }: { locale: Locale }) {
             aria-pressed={flipped[i]}
             onClick={() => setFlipped((v) => v.map((x, j) => (j === i ? !x : x)))}
           >
-            <span className="flip__face flip__front">
+            <span className="flip__face flip__front flip__front--photo" style={{ "--flip-img": `url("/images/home/enfoque-${c.img}.jpg")` } as React.CSSProperties}>
               <span className="flip__tag label">{pick(locale, ...c.tag)}</span>
               <span className="flip__title">{pick(locale, ...c.front)}</span>
               <span className="flip__foot label">
