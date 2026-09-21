@@ -356,14 +356,19 @@ html.menu-open { overflow: hidden; }
 
 /* ---------- imágenes de marca (entrega María Paula, sept. 2026) ---------- */
 /* Hero del Inicio: barra azul diagonal a la izquierda, foto a la derecha. */
-.hero--photo { background: var(--f2s-blue) url("/images/home/hero-barra-azul.jpg") right center / cover no-repeat; color: var(--f2s-white); }
+/* Anclada a la izquierda para que la zona azul (≈57% del ancho de la imagen) nunca se recorte;
+   altura acotada a una pantalla y titular más contenido para que el texto quede siempre sobre el azul. */
+.hero--photo { background: var(--f2s-blue) url("/images/home/hero-barra-azul.jpg") left center / cover no-repeat; color: var(--f2s-white); min-height: clamp(520px, 82vh, 780px); padding-top: clamp(48px, 6vw, 96px); padding-bottom: clamp(48px, 6vw, 96px); display: flex; align-items: center; }
+.hero--photo .hero__wrap { width: 100%; gap: clamp(20px, 2.2vw, 32px); }
 .hero--photo .eyebrow-hero, .hero--photo .display, .hero--photo .hero__lead, .hero--photo .link-under { color: var(--f2s-white); }
+.hero--photo .display--h1-hero { font-size: clamp(36px, 4.6vw, 76px); }
+.hero--photo .hero__lead { font-size: clamp(16px, 1.3vw, 21px); }
 .hero--photo .btn { background: var(--f2s-white); color: var(--f2s-blue); }
 .hero--photo .btn:hover { background: var(--f2s-ink); color: var(--f2s-white); }
-.hero--photo .hero__wrap > * { max-width: min(46%, 720px); }
+.hero--photo .hero__wrap > * { max-width: min(46%, 700px); }
 .hero__photo { display: none; }
 @media (max-width: 899px) {
-  .hero--photo { background-image: none; padding-bottom: 0; }
+  .hero--photo { background-image: none; min-height: 0; padding-bottom: 0; display: block; }
   .hero--photo .hero__wrap > * { max-width: none; }
   .hero__photo { display: block; position: relative; aspect-ratio: 16 / 9; margin: clamp(32px, 6vw, 48px) calc(-1 * var(--pad-x)) 0; overflow: hidden; }
 }
